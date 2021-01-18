@@ -230,3 +230,40 @@
     --ion-card-background: #1e1e1e;
   }
 }
+
+// couleur Netflix Red
+:root {
+  --ion-color-netflix-red: #E50914;
+  --ion-color-netflix-red-rgb: 229,9,20;
+  --ion-color-netflix-red-contrast: #ffffff;
+  --ion-color-netflix-red-contrast-rgb: 255,255,255;
+  --ion-color-netflix-red-shade: #ca0812;
+  --ion-color-netflix-red-tint: #e8222c;
+}
+
+.ion-color-netflix-red {
+  --ion-color-base: var(--ion-color-netflix-red);
+  --ion-color-base-rgb: var(--ion-color-netflix-red-rgb);
+  --ion-color-contrast: var(--ion-color-netflix-red-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-netflix-red-contrast-rgb);
+  --ion-color-shade: var(--ion-color-netflix-red-shade);
+  --ion-color-tint: var(--ion-color-netflix-red-tint);
+}
+// couleur Netflix Dark
+:root {
+  --ion-color-netflix-dark: #000000;
+  --ion-color-netflix-dark-rgb: 0,0,0;
+  --ion-color-netflix-dark-contrast: #ffffff;
+  --ion-color-netflix-dark-contrast-rgb: 255,255,255;
+  --ion-color-netflix-dark-shade: #000000;
+  --ion-color-netflix-dark-tint: #1a1a1a;
+}
+
+.ion-color-netflix-dark {
+  --ion-color-base: var(--ion-color-netflix-dark);
+  --ion-color-base-rgb: var(--ion-color-netflix-dark-rgb);
+  --ion-color-contrast: var(--ion-color-netflix-dark-contrast);
+  --ion-color-contrast-rgb: var(--ion-color-netflix-dark-contrast-rgb);
+  --ion-color-shade: var(--ion-color-netflix-dark-shade);
+  --ion-color-tint: var(--ion-color-netflix-dark-tint);
+}
